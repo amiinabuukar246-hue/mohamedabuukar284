@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       let guess=Number(prompt('tijaabi nasiibkaaga'))    
+       let ateamps=1
+       while(guess!==7){
+        if(ateamps>=10){
+          alert('waad dhaaftay xadka laguugu talagalay')
+        }
+        else if(guess<7){
+            alert('too low')
+        }
+        else{
+            alert('too hight')
+        }
+        guess=Number(prompt('tijaabi nasiibkaaga mar kale'))    
+        ateamps++
+       }
+       alert(`hambalyo waad saxdat adigoo isku day day:$${ateamps}`)
+    </script>
+
+</html>
+    </script>
+</body>
